@@ -20,13 +20,15 @@
 		<script src="assets/js/dsl.js" type="text/javascript" charset="utf-8"></script>
 		
 		<script src="assets/js/app.js" type="text/javascript" charset="utf-8"></script>
+        
+        <script src="assets/js/eventhandler.js" type="text/javascript" charset="utf-8"></script>
 		
 	</head>
 	<body>
  		<div id="title_bar">Interactive Test</div>
 
 		<div id="welcome" class="view">
-		  <div class="app_button" id="map_button">Show My Location</div>
+		  <div class="app_button" id="map_button" onClick="geolocate()">Location</div>
   	      <div class="app_button" id="settings_button">Settings</div>
 		</div>
 

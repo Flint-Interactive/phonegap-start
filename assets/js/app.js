@@ -3,6 +3,7 @@
 //
 run(function () {
     // immediately invoked on first run
+	document.getElementById("title_bar").innerHTML="running...";
     var init = (function () {
         if (navigator.network.connection.type == Connection.NONE) {
             alert("No internet connection - we won't be able to show you any maps");
